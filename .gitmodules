@@ -1,0 +1,3 @@
+[submodule "sam"]
+	path = sam
+	url = https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-cloudfront-with-lambda-edge.git
