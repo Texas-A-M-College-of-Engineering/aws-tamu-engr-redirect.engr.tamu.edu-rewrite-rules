@@ -1,50 +1,195 @@
 [
-    "^/(.*) https://tamids.tamu.edu [H=bigdata.tamu.edu,R=301,L]",
+    "^/(.*) https://tamids.tamu.edu [H=^bigdata.tamu.edu$,R=301,L]",
 
-    "^/dmaitland/?(.*) https://biomed-dmaitland.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
-    "^/hwanglab/?(.*) https://biomed-hwanglab.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
-    "^/kaunas/?(.*) https://biomed-kaunas.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
-    "^/kmaitland/?(.*) https://biomedoptics.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
-    "^/obsl/?(.*) https://biomed-obsl.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
-    "^/tml/?(.*) https://biomed-tml.engr.tamu.edu [H=biomed.tamu.edu,R=301,L]",
 
-    "^/(.*) https://people.engr.tamu.edu/arum.han/$1 [H=biomems.tamu.edu,R=301,L]",
+    "^/dmaitland/?(.*) https://biomed-dmaitland.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
+    "^/hwanglab/?(.*) https://biomed-hwanglab.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
+    "^/kaunas/?(.*) https://biomed-kaunas.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
+    "^/kmaitland/?(.*) https://biomedoptics.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
+    "^/obsl/?(.*) https://biomed-obsl.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
+    "^/tml/?(.*) https://biomed-tml.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
 
-    "^/(.*) https://engineering.tamu.edu/ce/ [H=ce.tamu.edu,R=301,L]",
 
-    "^/llowery/?(.*) https://lowery.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/jkaihatu/?(.*) https://coasthaz.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/hgao/?(.*) https://hgao.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/bwang/?(.*) https://xbwang.engr.tamu.edu [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/idamnjanovic/?(.*) https://sites.google.com/tamu.edu/damnjanovic/home [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/lquadrifoglio/?(.*) https://lquadrifoglio.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/?(.*) https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/folivera/?(.*) https://olivera.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/MUTCD-History.htm https://ghawkins.engr.tamu.edu/mutcd-information-and-history/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/yzhang/?(.*) https://yzhang.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ngharaibeh/?(.*) https://gharaibeh.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/qying/?(.*) http://yingqi95616.ddns.net:8001/index.html [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/funded%20research.htm https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/folivera/StudyAbroad/France.htm https://olivera.engr.tamu.edu/StudyAbroad/France.htm [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/MUTCD-history.htm https://ghawkins.engr.tamu.edu/mutcd-information-and-history-new/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/publications.htm https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/UndergraduateStudents.htm https://ghawkins.engr.tamu.edu/undergraduate-student-advising/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/national%20service.htm https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/NCUTCD/NCUTCDchair.htm https://ghawkins.engr.tamu.edu/ncutcd-information/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/pricing.htm https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/writing-guidelines.htm https://ghawkins.engr.tamu.edu/general-writing-guidelines/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/ghawkins/?(.*) https://ghawkins.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/mburris/university%20service.htm https://sites.google.com/tamu.edu/mburris [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/dlord/?(.*) https://dlord.engr.tamu.edu/$1 [H=ceprofs.civil.tamu.edu,R=301,L]",
-    "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=ceprofs.civil.tamu.edu,R=301,L]",
+    "^/(.*) https://people.engr.tamu.edu/arum.han/$1 [H=^biomems.tamu.edu$,R=301,L]",
 
-    "^/(.*) https://coe-connect.engr.tamu.edu [H=coexen.engr.tamu.edu,R=301,L]",
 
-    "^/(.*) https://engineering.tamu.edu/cse [H=cse.tamu.edu|cs.tamu.edu|www.cs.tamu.edu|www.cse.tamu.edu,R=301,L]",
+    "^/(.*) https://engineering.tamu.edu/ce/ [H=^ce.tamu.edu$,R=301,L]",
+
+
+    "^/llowery/?(.*) https://lowery.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/jkaihatu/?(.*) https://coasthaz.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/hgao/?(.*) https://hgao.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/bwang/?(.*) https://xbwang.engr.tamu.edu [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/idamnjanovic/?(.*) https://sites.google.com/tamu.edu/damnjanovic/home [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/lquadrifoglio/?(.*) https://lquadrifoglio.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/?(.*) https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/folivera/?(.*) https://olivera.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/MUTCD-History.htm https://ghawkins.engr.tamu.edu/mutcd-information-and-history/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/yzhang/?(.*) https://yzhang.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ngharaibeh/?(.*) https://gharaibeh.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/qying/?(.*) http://yingqi95616.ddns.net:8001/index.html [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/funded%20research.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/folivera/StudyAbroad/France.htm https://olivera.engr.tamu.edu/StudyAbroad/France.htm [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/MUTCD-history.htm https://ghawkins.engr.tamu.edu/mutcd-information-and-history-new/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/publications.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/UndergraduateStudents.htm https://ghawkins.engr.tamu.edu/undergraduate-student-advising/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/national%20service.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/NCUTCD/NCUTCDchair.htm https://ghawkins.engr.tamu.edu/ncutcd-information/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/pricing.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/writing-guidelines.htm https://ghawkins.engr.tamu.edu/general-writing-guidelines/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/ghawkins/?(.*) https://ghawkins.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/mburris/university%20service.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/dlord/?(.*) https://dlord.engr.tamu.edu/$1 [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://coe-connect.engr.tamu.edu [H=^coexen.engr.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/cse [H=^cse.tamu.edu$|^cs.tamu.edu$|^www.cs.tamu.edu$|^www.cse.tamu.edu$,R=301,L]",
+
 
     "^/(.*) https://forms.gle/KHmtqobVe46AKDTj9 [H=e-pat.engr.tamu.edu,R=301,L]",
 
 
+    "^/(.*) https://engineering.tamu.edu/easa [H=^easa.tamu.edu$,R=301,L]",
+
+
+    "^/~bjyoon/?(.*) https://biomlsp.com/ [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~laszlokish/?(.*) https://noise.ece.tamu.edu/ [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~narasimha-reddy/?(.*) https://cesg.tamu.edu/faculty/narasimha-reddy/$1 [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~prk/?(.*) https://cesg.tamu.edu/faculty/p-r-kumar/$1 [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~rbalog/?(.*) http://www.reaperlab.com/ [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~sshakkot/?(.*) https://cesg.tamu.edu/faculty/sshakkot/$1 [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~ulisses/?(.*) https://braganeto.engr.tamu.edu/ [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~xizhang/ECEN621/start.php https://people.engr.tamu.edu/xizhang/ECEN621/start.php.html [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/~([^/]+)/?(.*) https://people.engr.tamu.edu/$1/$2 [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$,R=301,L]",
+    "^/(.*) https://engineering.tamu.edu/electrical/ [H=^ece.tamu.edu$|^www.ece.tamu.edu$|^webapps.ee.tamu.edu$|^www.ee.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://ecologylab.net [H=^ecologylab.cse.tamu.edu$|^ecologylab.cs.tamu.edu$,R=301,L]",
+
+    
+    "^/(.*) https://engineering.tamu.edu/etid/eset.html [H=^eet.tamu.edu$|^eset.tamu.edu$|^esetweb.tamu.edu$,R=301,L]",
+
+    
+    "^/(.*) https://engineering.tamu.edu/academics/fedc/index.html [H=^eic.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/engineering-online/index.html [H=^engineeringonline.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/electrical/people/penjeti [H=^enjeti.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/etid.html [H=^etid.tamu.edu$|^etidweb.tamu.edu$|^mxet.tamu.edu$,R=301,L]",
+
+
+    "^/klappi/?(.*) https://people.engr.tamu.edu/andreas-klappenecker/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/choe$ https://people.engr.tamu.edu/choe [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/choe/?(.*) https://people.engr.tamu.edu/choe/choe/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+
+    "^/walker/?(.*) https://people.engr.tamu.edu/d-walker/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/dzsong$ https://people.engr.tamu.edu/dzsong [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/dzsong/?(.*) https://people.engr.tamu.edu/dzsong/dzsong/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/hammond$ https://people.engr.tamu.edu/hammond [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/hammond/?(.*) https://people.engr.tamu.edu/hammond/hammond/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/hlee/?(.*) https://people.engr.tamu.edu/hlee42/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/chen/?(.*) https://people.engr.tamu.edu/j-chen3/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/welch/?(.*) https://people.engr.tamu.edu/j-welch/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/jeff/?(.*) https://people.engr.tamu.edu/jeffhuang/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/yum/?(.*) https://people.engr.tamu.edu/khyum107/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/ritchey/?(.*) https://people.engr.tamu.edu/pcr/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/murphy/?(.*) https://people.engr.tamu.edu/robin.r.murphy/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/ward/?(.*) https://people.engr.tamu.edu/ronnieward/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/shsze$ https://people.engr.tamu.edu/shsze [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/shsze/?(.*) https://people.engr.tamu.edu/shsze/shsze/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/stoleru$ https://people.engr.tamu.edu/stoleru [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/stoleru/?(.*) https://people.engr.tamu.edu/stoleru/stoleru/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/teresa/?(.*) https://people.engr.tamu.edu/teresa19/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+    "^/(.*) https://people.engr.tamu.edu/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/electrical/ [H=^gecs.tamu.edu$,R=301,L]",
+    
+
+    "^/(.*) https://engineering.tamu.edu/graduate.html [H=^gradengineer.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://h3-icmi2018.engr.tamu.edu/$1 [H=^h3-icmi2018.cse.tamu.edu$|^h3-icmi2018.cs.tamu.edu$,R=301,L]",
+
+
+    "^/people/faculty/[gG]autam/default.htm https://gautam.engr.tamu.edu/index.html [H=^ise.tamu.edu$,R=301,L]",
+    "^/(.*) https://engineering.tamu.edu/industrial.html [H=^ise.tamu.edu$,R=301,L]",
+
+    
+    "^/(.*) https://people.engr.tamu.edu/zixiang-xiong/$1 [H=^lena.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/etid/mmet.html [H=^manufacturing.tamu.edu$|^mmet.tamu.edu$|^mmetweb.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/mechanical.html [H=^meen.tamu.edu$|^www.mengr.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://tamu-mrsl.org [H=^mri.tamu.edu$|^mrsl.ece.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/materials.html [H=^msen.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://people.engr.tamu.edu/arum.han/nano/$1 [H=^nano.ece.tamu.edu$|^nanobio.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/nuclear [H=^nuclear.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://it-lf-ecmf2.ads.tamu.edu/Forms/FundingActionRequestForm [H=^pats.engr.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://pdml.engr.tamu.edu [H=^pdml.tamu.edu$,R=301,L]",
+
+
+    "^/datta-gupta/public_html/index.html https://datta-gupta.engr.tamu.edu [H=^www.pe.tamu.edu$,R=301,L]",
+    "^/Killough-Group/index.html https://killough-group.engr.tamu.edu/index.html [H=^www.pe.tamu.edu$,R=301,L]",
+    "^/mceri/?(.*) https://mceri.engr.tamu.edu [H=^www.pe.tamu.edu$,R=301,L]",
+    "^/blasingame/data/?(.*) https://blasingame.engr.tamu.edu [H=^www.pe.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://smartgridcenter.tamu.edu/pscp/$1 [H=^pscp.ece.tamu.edu$,R=301,L]",
+    
+
+    "^/(.*) https://cse-robotics.engr.tamu.edu/$1 [H=^robots.cse.tamu.edu$|^robotics.cs.tamu.edu$|^robotics.cse.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/news/soundbytes-podcast/index.html [H=^soundbytes.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/outreach/index.html [H=^spark.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) http://people.engr.tamu.edu/hammond [H=^srl.cs.tamu.edu$|^srl.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://calendly.com/engrit/srt [H=^srt.engr.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://survivorbuddy.wpengine.com/ [H=^survivorbuddy.cse.tamu.edu$|^survivorbuddy.cs.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://tees.tamu.edu/researchsupport [H=^teesresearch.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://sites.google.com/site/ultrasoundtamu/$1 [H=^ultras.ece.tamu.edu$|^ultrasound.ece.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://wiptte.engr.tamu.edu/$1 [H=^wiptte.cse.tamu.edu$|^wiptte.cs.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://engineering.tamu.edu/chemical [H=^www.che.tamu.edu$,R=301,L]",
+
+
+    "^/(.*) https://myarnold23.wixsite.com/yarnold [H=^yarnold.engr.tamu.edu$,R=301,L]",
 
 
 
