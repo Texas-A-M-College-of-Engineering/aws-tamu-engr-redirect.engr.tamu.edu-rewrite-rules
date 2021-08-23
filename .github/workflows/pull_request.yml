@@ -30,3 +30,4 @@ jobs:
       if: always()
       with:
         files: tests/temp_results/*.xml
+        report_individual_runs: "true"
