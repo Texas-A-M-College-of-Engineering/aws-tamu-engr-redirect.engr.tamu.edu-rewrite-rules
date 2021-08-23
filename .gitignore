@@ -128,4 +128,7 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/osx,node,linux,windows
 .aws-sam
+venv
 .vscode
+tests/temp_results/*.xml
+tests/tests\ copy.json
