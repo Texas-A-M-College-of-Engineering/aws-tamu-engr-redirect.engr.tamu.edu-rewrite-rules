@@ -8,5 +8,525 @@
     "event_url": "biomed.tamu.edu/dmaitland/some/file.html",
     "result_location": "https://biomed-dmaitland.engr.tamu.edu",
     "result_status": "301"
+  },
+  "biomed.tamu.edu^/hwanglab/?(.*)": {
+    "event_url": "biomed.tamu.edu/hwanglab/some/file.html",
+    "result_location": "https://biomed-hwanglab.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "biomed.tamu.edu^/kaunas/?(.*)": {
+    "event_url": "biomed.tamu.edu/kaunas/some/file.html",
+    "result_location": "https://biomed-kaunas.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "biomed.tamu.edu^/kmaitland/?(.*)": {
+    "event_url": "biomed.tamu.edu/kmaitland/some/file.html",
+    "result_location": "https://biomedoptics.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "biomed.tamu.edu^/obsl/?(.*)": {
+    "event_url": "biomed.tamu.edu/obsl/some/file.html",
+    "result_location": "https://biomed-obsl.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "biomed.tamu.edu^/tml/?(.*)": {
+    "event_url": "biomed.tamu.edu/tml/some/file.html",
+    "result_location": "https://biomed-tml.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "biomems.tamu.edu^/(.*)": {
+    "event_url": "biomems.tamu.edu/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/arum.han/some/file.html",
+    "result_status": "301"
+  },
+  "ce.tamu.edu^/(.*)": {
+    "event_url": "ce.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/ce/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/bwang/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/bwang/some/file.html",
+    "result_location": "https://xbwang.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/dlord/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/dlord/some/file.html",
+    "result_location": "https://dlord.engr.tamu.edu/some/file.html",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/folivera/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/folivera/some/file.html",
+    "result_location": "https://olivera.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/folivera/StudyAbroad/France.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/folivera/StudyAbroad/France.htm",
+    "result_location": "https://olivera.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/some/file.html",
+    "result_location": "https://ghawkins.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/MUTCD-History.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/MUTCD-History.htm",
+    "result_location": "https://ghawkins.engr.tamu.edu/mutcd-information-and-history/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/MUTCD-history.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/MUTCD-history.htm",
+    "result_location": "https://ghawkins.engr.tamu.edu/mutcd-information-and-history-new/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/NCUTCD/NCUTCDchair.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/NCUTCD/NCUTCDchair.htm",
+    "result_location": "https://ghawkins.engr.tamu.edu/ncutcd-information/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/UndergraduateStudents.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/UndergraduateStudents.htm",
+    "result_location": "https://ghawkins.engr.tamu.edu/undergraduate-student-advising/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ghawkins/writing-guidelines.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/ghawkins/writing-guidelines.htm",
+    "result_location": "https://ghawkins.engr.tamu.edu/general-writing-guidelines/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/hgao/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/hgao/some/file.html",
+    "result_location": "https://hgao.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/idamnjanovic/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/idamnjanovic/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/damnjanovic/home",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/jkaihatu/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/jkaihatu/some/file.html",
+    "result_location": "https://coasthaz.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/llowery/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/llowery/some/file.html",
+    "result_location": "https://lowery.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/lquadrifoglio/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/lquadrifoglio/some/file.html",
+    "result_location": "https://lquadrifoglio.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/funded%20research.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/funded%20research.htm",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/national%20service.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/national%20service.htm",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/pricing.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/pricing.htm",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/publications.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/publications.htm",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/mburris/university%20service.htm": {
+    "event_url": "ceprofs.civil.tamu.edu/mburris/university%20service.htm",
+    "result_location": "https://sites.google.com/tamu.edu/mburris",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/ngharaibeh/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/ngharaibeh/some/file.html",
+    "result_location": "https://gharaibeh.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/qying/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/qying/some/file.html",
+    "result_location": "http://yingqi95616.ddns.net:8001/index.html",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/rwurbs/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/rwurbs/some/file.html",
+    "result_location": "https://wrap.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ceprofs.civil.tamu.edu^/yzhang/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/yzhang/some/file.html",
+    "result_location": "https://yzhang.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "coexen.engr.tamu.edu^/(.*)": {
+    "event_url": "coexen.engr.tamu.edu/some/file.html",
+    "result_location": "https://coe-connect.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "cse.tamu.edu^/(.*)": {
+    "event_url": "cse.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/cse",
+    "result_status": "301"
+  },
+  "e-pat.engr.tamu.edu^/(.*)": {
+    "event_url": "e-pat.engr.tamu.edu/some/file.html",
+    "result_location": "https://forms.gle/KHmtqobVe46AKDTj9",
+    "result_status": "301"
+  },
+  "easa.tamu.edu^/(.*)": {
+    "event_url": "easa.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/easa",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/(.*)": {
+    "event_url": "ece.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/electrical/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~([^/]+)/?(.*)": {
+    "event_url": "ece.tamu.edu/]+)/some/file.html",
+    "result_location": "https://engineering.tamu.edu/electrical/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~bjyoon/?(.*)": {
+    "event_url": "ece.tamu.edu/~bjyoon/some/file.html",
+    "result_location": "https://biomlsp.com/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~laszlokish/?(.*)": {
+    "event_url": "ece.tamu.edu/~laszlokish/some/file.html",
+    "result_location": "https://noise.ece.tamu.edu/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~narasimha-reddy/?(.*)": {
+    "event_url": "ece.tamu.edu/~narasimha-reddy/some/file.html",
+    "result_location": "https://cesg.tamu.edu/faculty/narasimha-reddy/some/file.html",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~prk/?(.*)": {
+    "event_url": "ece.tamu.edu/~prk/some/file.html",
+    "result_location": "https://cesg.tamu.edu/faculty/p-r-kumar/some/file.html",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~rbalog/?(.*)": {
+    "event_url": "ece.tamu.edu/~rbalog/some/file.html",
+    "result_location": "http://www.reaperlab.com/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~sshakkot/?(.*)": {
+    "event_url": "ece.tamu.edu/~sshakkot/some/file.html",
+    "result_location": "https://cesg.tamu.edu/faculty/sshakkot/some/file.html",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~ulisses/?(.*)": {
+    "event_url": "ece.tamu.edu/~ulisses/some/file.html",
+    "result_location": "https://braganeto.engr.tamu.edu/",
+    "result_status": "301"
+  },
+  "ece.tamu.edu^/~xizhang/ECEN621/start.php": {
+    "event_url": "ece.tamu.edu/~xizhang/ECEN621/start.php",
+    "result_location": "https://people.engr.tamu.edu/xizhang/ECEN621/start.php.html",
+    "result_status": "301"
+  },
+  "ecologylab.cse.tamu.edu^/(.*)": {
+    "event_url": "ecologylab.cse.tamu.edu/some/file.html",
+    "result_location": "https://ecologylab.net",
+    "result_status": "301"
+  },
+  "eet.tamu.edu^/(.*)": {
+    "event_url": "eet.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/eset.html",
+    "result_status": "301"
+  },
+  "eic.tamu.edu^/(.*)": {
+    "event_url": "eic.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/academics/fedc/index.html",
+    "result_status": "301"
+  },
+  "engineeringonline.tamu.edu^/(.*)": {
+    "event_url": "engineeringonline.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/engineering-online/index.html",
+    "result_status": "301"
+  },
+  "enjeti.tamu.edu^/(.*)": {
+    "event_url": "enjeti.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/electrical/people/penjeti",
+    "result_status": "301"
+  },
+  "etid.tamu.edu^/(.*)": {
+    "event_url": "etid.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/(.*)": {
+    "event_url": "faculty.cs.tamu.edu/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/chen/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/chen/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/j-chen3/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/choe$": {
+    "event_url": "faculty.cs.tamu.edu/choe",
+    "result_location": "https://people.engr.tamu.edu/choe",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/choe/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/choe/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/choe/choe/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/dzsong$": {
+    "event_url": "faculty.cs.tamu.edu/dzsong",
+    "result_location": "https://people.engr.tamu.edu/dzsong",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/dzsong/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/dzsong/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/dzsong/dzsong/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/hammond$": {
+    "event_url": "faculty.cs.tamu.edu/hammond",
+    "result_location": "https://people.engr.tamu.edu/hammond",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/hammond/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/hammond/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/hammond/hammond/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/hlee/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/hlee/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/hlee42/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/jeff/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/jeff/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/jeffhuang/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/klappi/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/klappi/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/andreas-klappenecker/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/murphy/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/murphy/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/robin.r.murphy/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/ritchey/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/ritchey/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/pcr/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/shsze$": {
+    "event_url": "faculty.cs.tamu.edu/shsze",
+    "result_location": "https://people.engr.tamu.edu/shsze",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/shsze/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/shsze/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/shsze/shsze/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/stoleru$": {
+    "event_url": "faculty.cs.tamu.edu/stoleru",
+    "result_location": "https://people.engr.tamu.edu/stoleru",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/stoleru/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/stoleru/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/stoleru/stoleru/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/teresa/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/teresa/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/teresa19/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/walker/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/walker/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/d-walker/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/ward/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/ward/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/ronnieward/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/welch/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/welch/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/j-welch/some/file.html",
+    "result_status": "301"
+  },
+  "faculty.cs.tamu.edu^/yum/?(.*)": {
+    "event_url": "faculty.cs.tamu.edu/yum/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/khyum107/some/file.html",
+    "result_status": "301"
+  },
+  "gecs.tamu.edu^/(.*)": {
+    "event_url": "gecs.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/electrical/",
+    "result_status": "301"
+  },
+  "gradengineer.tamu.edu^/(.*)": {
+    "event_url": "gradengineer.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/graduate.html",
+    "result_status": "301"
+  },
+  "h3-icmi2018.cse.tamu.edu^/(.*)": {
+    "event_url": "h3-icmi2018.cse.tamu.edu/some/file.html",
+    "result_location": "https://h3-icmi2018.engr.tamu.edu/some/file.html",
+    "result_status": "301"
+  },
+  "ise.tamu.edu^/(.*)": {
+    "event_url": "ise.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/industrial.html",
+    "result_status": "301"
+  },
+  "ise.tamu.edu^/people/faculty/[gG]autam/default.htm": {
+    "event_url": "ise.tamu.edu/people/faculty/[gG]autam/default.htm",
+    "result_location": "https://engineering.tamu.edu/industrial.html",
+    "result_status": "301"
+  },
+  "lena.tamu.edu^/(.*)": {
+    "event_url": "lena.tamu.edu/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/zixiang-xiong/some/file.html",
+    "result_status": "301"
+  },
+  "manufacturing.tamu.edu^/(.*)": {
+    "event_url": "manufacturing.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/mmet.html",
+    "result_status": "301"
+  },
+  "meen.tamu.edu^/(.*)": {
+    "event_url": "meen.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/mechanical.html",
+    "result_status": "301"
+  },
+  "mri.tamu.edu^/(.*)": {
+    "event_url": "mri.tamu.edu/some/file.html",
+    "result_location": "https://tamu-mrsl.org",
+    "result_status": "301"
+  },
+  "msen.tamu.edu^/(.*)": {
+    "event_url": "msen.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/materials.html",
+    "result_status": "301"
+  },
+  "nano.ece.tamu.edu^/(.*)": {
+    "event_url": "nano.ece.tamu.edu/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/arum.han/nano/some/file.html",
+    "result_status": "301"
+  },
+  "nuclear.tamu.edu^/(.*)": {
+    "event_url": "nuclear.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/nuclear",
+    "result_status": "301"
+  },
+  "pats.engr.tamu.edu^/(.*)": {
+    "event_url": "pats.engr.tamu.edu/some/file.html",
+    "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/FundingActionRequestForm",
+    "result_status": "301"
+  },
+  "pdml.tamu.edu^/(.*)": {
+    "event_url": "pdml.tamu.edu/some/file.html",
+    "result_location": "https://pdml.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "pscp.ece.tamu.edu^/(.*)": {
+    "event_url": "pscp.ece.tamu.edu/some/file.html",
+    "result_location": "https://smartgridcenter.tamu.edu/pscp/some/file.html",
+    "result_status": "301"
+  },
+  "robots.cse.tamu.edu^/(.*)": {
+    "event_url": "robots.cse.tamu.edu/some/file.html",
+    "result_location": "https://cse-robotics.engr.tamu.edu/some/file.html",
+    "result_status": "301"
+  },
+  "soundbytes.tamu.edu^/(.*)": {
+    "event_url": "soundbytes.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/news/soundbytes-podcast/index.html",
+    "result_status": "301"
+  },
+  "spark.tamu.edu^/(.*)": {
+    "event_url": "spark.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/outreach/index.html",
+    "result_status": "301"
+  },
+  "srl.cs.tamu.edu^/(.*)": {
+    "event_url": "srl.cs.tamu.edu/some/file.html",
+    "result_location": "http://people.engr.tamu.edu/hammond",
+    "result_status": "301"
+  },
+  "srt.engr.tamu.edu^/(.*)": {
+    "event_url": "srt.engr.tamu.edu/some/file.html",
+    "result_location": "https://calendly.com/engrit/srt",
+    "result_status": "301"
+  },
+  "survivorbuddy.cse.tamu.edu^/(.*)": {
+    "event_url": "survivorbuddy.cse.tamu.edu/some/file.html",
+    "result_location": "https://survivorbuddy.wpengine.com/",
+    "result_status": "301"
+  },
+  "teesresearch.tamu.edu^/(.*)": {
+    "event_url": "teesresearch.tamu.edu/some/file.html",
+    "result_location": "https://tees.tamu.edu/researchsupport",
+    "result_status": "301"
+  },
+  "ultras.ece.tamu.edu^/(.*)": {
+    "event_url": "ultras.ece.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/site/ultrasoundtamu/some/file.html",
+    "result_status": "301"
+  },
+  "wiptte.cse.tamu.edu^/(.*)": {
+    "event_url": "wiptte.cse.tamu.edu/some/file.html",
+    "result_location": "https://wiptte.engr.tamu.edu/some/file.html",
+    "result_status": "301"
+  },
+  "www.che.tamu.edu^/(.*)": {
+    "event_url": "www.che.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/chemical",
+    "result_status": "301"
+  },
+  "www.pe.tamu.edu^/Killough-Group/index.html": {
+    "event_url": "www.pe.tamu.edu/Killough-Group/index.html",
+    "result_location": "https://killough-group.engr.tamu.edu/index.html",
+    "result_status": "301"
+  },
+  "www.pe.tamu.edu^/blasingame/data/?(.*)": {
+    "event_url": "www.pe.tamu.edu/blasingame/data/some/file.html",
+    "result_location": "https://blasingame.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "www.pe.tamu.edu^/datta-gupta/public_html/index.html": {
+    "event_url": "www.pe.tamu.edu/datta-gupta/public_html/index.html",
+    "result_location": "https://datta-gupta.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "www.pe.tamu.edu^/mceri/?(.*)": {
+    "event_url": "www.pe.tamu.edu/mceri/some/file.html",
+    "result_location": "https://mceri.engr.tamu.edu",
+    "result_status": "301"
+  },
+  "yarnold.engr.tamu.edu^/(.*)": {
+    "event_url": "yarnold.engr.tamu.edu/some/file.html",
+    "result_location": "https://myarnold23.wixsite.com/yarnold",
+    "result_status": "301"
   }
 }
