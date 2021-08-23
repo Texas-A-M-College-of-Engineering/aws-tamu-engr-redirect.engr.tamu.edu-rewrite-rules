@@ -43,6 +43,9 @@
     "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
 
 
+    "^/(.*) https://tamuengr.emscloudservice.com/web [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+
+
     "^/(.*) https://coe-connect.engr.tamu.edu [H=^coexen.engr.tamu.edu$,R=301,L]",
 
 
