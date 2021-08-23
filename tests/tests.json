@@ -171,7 +171,27 @@
   },
   "coe-ems-web01.engr.tamu.edu^/(.*)": {
     "event_url": "coe-ems-web01.engr.tamu.edu/some/file.html",
-    "result_location": "https://tamuengr.emscloudservice.com/web",
+    "result_location": "https://tamuengr.emscloudservice.com/",
+    "result_status": "301"
+  },
+  "coe-ems-web01.engr.tamu.edu^/emsapi/?(.*)": {
+    "event_url": "coe-ems-web01.engr.tamu.edu/emsapi/some/file.html",
+    "result_location": "https://tamuengr.emscloudservice.com/ems-api/some/file.html",
+    "result_status": "301"
+  },
+  "coe-ems-web01.engr.tamu.edu^/emsdesktopwebdeploy/?(.*)": {
+    "event_url": "coe-ems-web01.engr.tamu.edu/emsdesktopwebdeploy/some/file.html",
+    "result_location": "https://tamuengr.emscloudservice.com/desktop/some/file.html",
+    "result_status": "301"
+  },
+  "coe-ems-web01.engr.tamu.edu^/emsplatform/?(.*)": {
+    "event_url": "coe-ems-web01.engr.tamu.edu/emsplatform/some/file.html",
+    "result_location": "https://tamuengr.emscloudservice.com/platform/some/file.html",
+    "result_status": "301"
+  },
+  "coe-ems-web01.engr.tamu.edu^/emswebapp/?(.*)": {
+    "event_url": "coe-ems-web01.engr.tamu.edu/emswebapp/some/file.html",
+    "result_location": "https://tamuengr.emscloudservice.com/web/some/file.html",
     "result_status": "301"
   },
   "coexen.engr.tamu.edu^/(.*)": {
