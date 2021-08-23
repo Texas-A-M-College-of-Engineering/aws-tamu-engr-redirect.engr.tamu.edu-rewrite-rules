@@ -57,7 +57,7 @@ This will automatically add any testing rules to the tests file. You should
 examine the *tests/tests.json* file and ensure that the new rules are correct
 
 ### Test file format
-An exerpt from the testing file with two tests looks like this:
+An excerpt from the testing file with two tests looks like this:
 
 ```json
 {
