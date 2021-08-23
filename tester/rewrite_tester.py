@@ -6,7 +6,7 @@ Author: Blake Dworaczyk <blaked@tamu.edu>
 
 import argparse
 import copy
-from typing import Dict, Tuple
+from typing import Dict, List, Tuple
 import json
 import os
 from pprint import pprint
@@ -54,13 +54,33 @@ class RewriteTester:
 
       return event_filename
 
+    def _get_rewrite_rules(self) -> Dict:
+      with open(os.path.abspath(f'{self._test_dir}/../rules/rules.json'), encoding='UTF-8') as fp:
+        return json.load(fp)
+
+    def _find_missing_tests(self) -> List[str]:
+      tests = self._get_tests()
+      rewrite_rules = self._get_rewrite_rules()
+      missing_tests = []
+      for rewrite_rule in rewrite_rules:
+        # If we don't have a hostname, then skip this one
+        if 'H=' not in rewrite_rule:
+          continue
+
+        rule_match = rewrite_rule.split(' ')[0]
+        hostname = rewrite_rule.split('H=')[1].split('|')[0].split(',')[0].split('^')[-1].split('$')[0]
+        rule_name = hostname + rule_match
+        if rule_name not in tests:
+          missing_tests.append(rule_name) 
+
+      return missing_tests
+
     def build_missing_tests(self):
       # read the current tests
       tests = self._get_tests()
 
       # read the rules file
-      with open(os.path.abspath(f'{self._test_dir}/../rules/rules.json'), encoding='UTF-8') as fp:
-        rewrite_rules = json.load(fp)
+      rewrite_rules = self._get_rewrite_rules()
 
       # Go through the rules and determine if we need to run any
       for rewrite_rule in rewrite_rules:
@@ -110,6 +130,14 @@ class RewriteTester:
 
     # Run all tests in the tests.json file
     def run_all_tests(self):
+      # Error out if we haven't created a test for each rule
+      missing_tests = self._find_missing_tests()
+      if missing_tests:
+        print('The following tests have not been created:')
+        pprint(missing_tests)
+        print('Failing because of the above missing tests!')
+        sys.exit(2)
+
       tests = self._get_tests()
       # Use this for better test output in the pipeline
       junit_test_cases = []
