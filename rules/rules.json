@@ -43,7 +43,11 @@
     "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
 
 
-    "^/(.*) https://tamuengr.emscloudservice.com/web [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+    "^/emsdesktopwebdeploy/?(.*) https://tamuengr.emscloudservice.com/desktop/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+    "^/emsapi/?(.*) https://tamuengr.emscloudservice.com/ems-api/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+    "^/emsplatform/?(.*) https://tamuengr.emscloudservice.com/platform/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+    "^/emswebapp/?(.*) https://tamuengr.emscloudservice.com/web/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
+    "^/(.*) https://tamuengr.emscloudservice.com/ [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
 
 
     "^/(.*) https://coe-connect.engr.tamu.edu [H=^coexen.engr.tamu.edu$,R=301,L]",
