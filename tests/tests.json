@@ -6,7 +6,7 @@
   },
   "biomed.tamu.edu^/dmaitland/?(.*)": {
     "event_url": "biomed.tamu.edu/dmaitland/some/file.html",
-    "result_location": "https://biomed-dmaitland.engr.tamu.edu/fail-on-purpose",
+    "result_location": "https://biomed-dmaitland.engr.tamu.edu",
     "result_status": "301"
   }
 }
