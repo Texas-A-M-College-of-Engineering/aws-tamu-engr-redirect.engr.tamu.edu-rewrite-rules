@@ -1,9 +1,13 @@
-name: "Staging: Deploy CloudFront + Lambda@Edge SAM Stack"
+name: "CI Testing for redirect.engr.tamu.edu Rewrite Rules"
 on: 
   pull_request:
     branches:
     - staging
     - main
+    paths-ignore:
+      - '.gitignore'
+      - 'README.md'
+      - '.github/workflows/pull_request.yml' # Changes to only the workflow shouldn't cause tests to run
 
 jobs:
   deploy:
