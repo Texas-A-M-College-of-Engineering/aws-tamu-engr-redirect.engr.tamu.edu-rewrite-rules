@@ -108,7 +108,7 @@ $ python tester/rewrite_tester.py --test_path tests --debug
 
 Deploying changes to the rewrite rules should follow this workflow:
 1. If this is a new site, i.e. no rewrite rules exist for this site. You need to
-   add the site to the list at [aws-tamu-engr-redirect.engr.tamu.edu](https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-engr-redirect.engr.tamu.edu-rewrite-rules.git)
+   add the site to the list at [aws-tamu-engr-redirect.engr.tamu.edu](https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-engr-redirect.engr.tamu.edu.git)
 2. Commit and push a new version with tests and an updated rules.json file to a 
    custom branch, i.e. feature-add-bigdata-rewrites
 3. Submit a PR to merge the changes to the *main* branch
