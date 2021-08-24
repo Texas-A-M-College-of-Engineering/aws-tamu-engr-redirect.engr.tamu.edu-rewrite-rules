@@ -43,10 +43,16 @@ class RewriteTester:
 
     def _generate_and_write_cf_event(self, url: str) -> Dict:
       hostname, uri = self.parse_event_uri(event_url=url)
+      # Parse out the querystring
+      uri_and_qs = uri.split('?')
+      uri = uri_and_qs[0]
+      querystring = uri_and_qs[1] if len(uri_and_qs) > 1 else ''
+
       # Base the event input on the template
       event = copy.deepcopy(self._event_template) # type: Dict
       event['Records'][0]['cf']['request']['headers']['host'][0]['value'] = hostname
       event['Records'][0]['cf']['request']['uri'] = uri
+      event['Records'][0]['cf']['request']['querystring'] = querystring
 
       event_filename = self.random_string() + '.json'
       with open(f'/tmp/{event_filename}', 'w') as fp:
@@ -216,8 +222,8 @@ class RewriteTester:
         print(f'Status {result_dict["status"]} doesn\'t match {test_dict["result_status"]}')
         res = False
       if test_dict['result_location'] != result_dict['headers']['location'][0]['value']:
-        print(f'Location {result_dict["headers"]["location"][0]["value"]} does not match' 
-          '{test_dict["result_location"]}')
+        print(f'Location {result_dict["headers"]["location"][0]["value"]} does not match ' 
+          f'{test_dict["result_location"]}')
         res = False
       return res
 
