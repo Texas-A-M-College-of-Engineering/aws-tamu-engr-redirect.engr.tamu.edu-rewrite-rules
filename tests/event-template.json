@@ -37,7 +37,8 @@
           },
           "clientIp": "2001:cdba::3257:9652",
           "uri": "/some/directory",
-          "method": "GET"
+          "method": "GET",
+					"querystring": ""
         },
         "config": {
           "distributionId": "EXAMPLE"
