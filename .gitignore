@@ -132,3 +132,6 @@ venv
 .vscode
 tests/temp_results/*.xml
 tests/tests\ copy.json
+
+# Visual Studio cache/options directory 
+.vs/
