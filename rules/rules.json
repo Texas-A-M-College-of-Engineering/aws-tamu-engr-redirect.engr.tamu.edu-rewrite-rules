@@ -50,6 +50,9 @@
     "^/(.*) https://tamuengr.emscloudservice.com/ [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
 
 
+    "^/(.*) https://tees.tamu.edu/employee-resources.html [H=^coe-intranet.engr.tamu.edu$,^coe-intranet.tamu.edu$,^eng-intranet.tamu.edu$,R=301,L]",
+
+
     "^/(.*) https://coe-connect.engr.tamu.edu [H=^coexen.engr.tamu.edu$,R=301,L]",
 
 
