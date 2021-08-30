@@ -194,6 +194,11 @@
     "result_location": "https://tamuengr.emscloudservice.com/web/some/file.html",
     "result_status": "301"
   },
+  "coe-intranet.engr.tamu.edu^/(.*)": {
+    "event_url": "coe-intranet.engr.tamu.edu/some/file.html",
+    "result_location": "https://tees.tamu.edu/employee-resources.html",
+    "result_status": "301"
+  },
   "coexen.engr.tamu.edu^/(.*)": {
     "event_url": "coexen.engr.tamu.edu/some/file.html",
     "result_location": "https://coe-connect.engr.tamu.edu",
