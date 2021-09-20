@@ -41,6 +41,7 @@
     "^/mburris/university%20service.htm https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/dlord/?(.*) https://dlord.engr.tamu.edu/$1 [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
+    "^/kchang/?(.*) https://sites.google.com/tamu.edu/kuang-an-chang [H=^ceprofs.civil.tamu.edu$,R=301,L]",
 
 
     "^/emsdesktopwebdeploy/?(.*) https://tamuengr.emscloudservice.com/desktop/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
