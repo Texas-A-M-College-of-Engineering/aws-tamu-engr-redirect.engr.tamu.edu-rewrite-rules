@@ -169,6 +169,11 @@
     "result_location": "https://yzhang.engr.tamu.edu/",
     "result_status": "301"
   },
+    "ceprofs.civil.tamu.edu^/kchang/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/kchang/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/kuang-an-chang",
+    "result_status": "301"
+  },
   "coe-ems-web01.engr.tamu.edu^/(.*)": {
     "event_url": "coe-ems-web01.engr.tamu.edu/some/file.html",
     "result_location": "https://tamuengr.emscloudservice.com/",
