@@ -109,6 +109,11 @@
     "result_location": "https://coasthaz.engr.tamu.edu/",
     "result_status": "301"
   },
+  "ceprofs.civil.tamu.edu^/kchang/?(.*)": {
+    "event_url": "ceprofs.civil.tamu.edu/kchang/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/kuang-an-chang",
+    "result_status": "301"
+  },
   "ceprofs.civil.tamu.edu^/llowery/?(.*)": {
     "event_url": "ceprofs.civil.tamu.edu/llowery/some/file.html",
     "result_location": "https://lowery.engr.tamu.edu/",
@@ -167,11 +172,6 @@
   "ceprofs.civil.tamu.edu^/yzhang/?(.*)": {
     "event_url": "ceprofs.civil.tamu.edu/yzhang/some/file.html",
     "result_location": "https://yzhang.engr.tamu.edu/",
-    "result_status": "301"
-  },
-    "ceprofs.civil.tamu.edu^/kchang/?(.*)": {
-    "event_url": "ceprofs.civil.tamu.edu/kchang/some/file.html",
-    "result_location": "https://sites.google.com/tamu.edu/kuang-an-chang",
     "result_status": "301"
   },
   "coe-ems-web01.engr.tamu.edu^/(.*)": {
@@ -512,6 +512,11 @@
   "srt.engr.tamu.edu^/(.*)": {
     "event_url": "srt.engr.tamu.edu/some/file.html",
     "result_location": "https://calendly.com/engrit/srt",
+    "result_status": "301"
+  },
+  "stmi.engr.tamu.edu^/(.*)": {
+    "event_url": "stmi.engr.tamu.edu/some/file.html",
+    "result_location": "https://stmilab.github.io",
     "result_status": "301"
   },
   "survivorbuddy.cse.tamu.edu^/(.*)": {
