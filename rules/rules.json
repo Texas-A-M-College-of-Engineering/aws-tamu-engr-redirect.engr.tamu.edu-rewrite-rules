@@ -149,7 +149,7 @@
     "^/(.*) https://engineering.tamu.edu/materials.html [H=^msen.tamu.edu$,R=301,L]",
 
 
-    "^/(.*) https://people.engr.tamu.edu/arum.han/nano/$1 [H=^nano.ece.tamu.edu$|^nanobio.tamu.edu$,R=301,L]",
+    "^/(.*) https://people.engr.tamu.edu/arum.han/$1 [H=^nano.ece.tamu.edu$|^nanobio.tamu.edu$,R=301,L]",
 
 
     "^/(.*) https://engineering.tamu.edu/nuclear [H=^nuclear.tamu.edu$,R=301,L]",

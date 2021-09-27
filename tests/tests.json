@@ -466,7 +466,7 @@
   },
   "nano.ece.tamu.edu^/(.*)": {
     "event_url": "nano.ece.tamu.edu/some/file.html",
-    "result_location": "https://people.engr.tamu.edu/arum.han/nano/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/arum.han/some/file.html",
     "result_status": "301"
   },
   "nuclear.tamu.edu^/(.*)": {
