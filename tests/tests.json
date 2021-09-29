@@ -534,6 +534,11 @@
     "result_location": "https://sites.google.com/site/ultrasoundtamu/some/file.html",
     "result_status": "301"
   },
+  "winedale.tamu.edu^/(.*)": {
+    "event_url": "winedale.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop/some/file.html",
+    "result_status": "301"
+  },
   "wiptte.cse.tamu.edu^/(.*)": {
     "event_url": "wiptte.cse.tamu.edu/some/file.html",
     "result_location": "https://wiptte.engr.tamu.edu/some/file.html",
