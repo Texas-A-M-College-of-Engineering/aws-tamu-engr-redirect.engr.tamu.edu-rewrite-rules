@@ -196,6 +196,7 @@
 
     "^/(.*) https://sites.google.com/site/ultrasoundtamu/$1 [H=^ultras.ece.tamu.edu$|^ultrasound.ece.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://sites.google.com/tamu.edu/winedaleworkshop/$1 [H=^winedale.tamu.edu$,R=301,L]",
 
     "^/(.*) https://wiptte.engr.tamu.edu/$1 [H=^wiptte.cse.tamu.edu$|^wiptte.cs.tamu.edu$,R=301,L]",
 
