@@ -541,7 +541,7 @@
   },
   "winedale.tamu.edu^/(.*)": {
     "event_url": "winedale.tamu.edu/some/file.html",
-    "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop",
     "result_status": "301"
   },
   "wiptte.cse.tamu.edu^/(.*)": {
