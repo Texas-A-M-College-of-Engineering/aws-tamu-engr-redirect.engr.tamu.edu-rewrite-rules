@@ -514,6 +514,11 @@
     "result_location": "https://calendly.com/engrit/srt",
     "result_status": "301"
   },
+  "staff.civil.tamu.edu^/(.*)": {
+    "event_url": "staff.civil.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/a/tamu.edu/inside_staff-civil-tamu-edu",
+    "result_status": "301"
+  },
   "stmi.engr.tamu.edu^/(.*)": {
     "event_url": "stmi.engr.tamu.edu/some/file.html",
     "result_location": "https://stmilab.github.io",
@@ -536,7 +541,7 @@
   },
   "winedale.tamu.edu^/(.*)": {
     "event_url": "winedale.tamu.edu/some/file.html",
-    "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop",
     "result_status": "301"
   },
   "wiptte.cse.tamu.edu^/(.*)": {

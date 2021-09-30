@@ -43,7 +43,6 @@
     "^/rwurbs/?(.*) https://wrap.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/kchang/?(.*) https://sites.google.com/tamu.edu/kuang-an-chang [H=^ceprofs.civil.tamu.edu$,R=301,L]",
 
-
     "^/emsdesktopwebdeploy/?(.*) https://tamuengr.emscloudservice.com/desktop/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
     "^/emsapi/?(.*) https://tamuengr.emscloudservice.com/ems-api/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
     "^/emsplatform/?(.*) https://tamuengr.emscloudservice.com/platform/$1 [H=^coe-ems-web01.engr.tamu.edu$,R=301,L]",
@@ -184,6 +183,7 @@
 
     "^/(.*) https://calendly.com/engrit/srt [H=^srt.engr.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://sites.google.com/a/tamu.edu/inside_staff-civil-tamu-edu [H=^staff.civil.tamu.edu$,R=301,L]",
 
     "^/(.*) https://stmilab.github.io [H=^stmi.engr.tamu.edu$,R=301,L]",
 
@@ -196,7 +196,7 @@
 
     "^/(.*) https://sites.google.com/site/ultrasoundtamu/$1 [H=^ultras.ece.tamu.edu$|^ultrasound.ece.tamu.edu$,R=301,L]",
 
-    "^/(.*) https://sites.google.com/tamu.edu/winedaleworkshop/$1 [H=^winedale.tamu.edu$,R=301,L]",
+    "^/(.*) https://sites.google.com/tamu.edu/winedaleworkshop [H=^winedale.tamu.edu$,R=301,L]",
 
     "^/(.*) https://wiptte.engr.tamu.edu/$1 [H=^wiptte.cse.tamu.edu$|^wiptte.cs.tamu.edu$,R=301,L]",
 
