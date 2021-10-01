@@ -2,6 +2,8 @@
     "^/(.*) https://tamids.tamu.edu [H=^bigdata.tamu.edu$,R=301,L]",
 
 
+    "^/(.*) https://engineering.tamu.edu/student-life/aggies-invent/index.html [H=^aggiesinvent.tamu.edu$,R=301,L]",
+
     "^/dmaitland/?(.*) https://biomed-dmaitland.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
     "^/hwanglab/?(.*) https://biomed-hwanglab.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
     "^/kaunas/?(.*) https://biomed-kaunas.engr.tamu.edu [H=^biomed.tamu.edu$,R=301,L]",
