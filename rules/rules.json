@@ -1,4 +1,7 @@
 [
+
+    "^/(.*) https://engineering.tamu.edu/student-life/aggies-invent/index.html [H=^aggiesinvent.tamu.edu$,R=301,L]",
+
     "^/(.*) https://tamids.tamu.edu [H=^bigdata.tamu.edu$,R=301,L]",
 
 

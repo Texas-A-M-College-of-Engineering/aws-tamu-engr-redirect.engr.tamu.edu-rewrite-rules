@@ -1,4 +1,9 @@
 {
+  "aggiesinvent.tamu.edu^/(.*)": {
+    "event_url": "aggiesinvent.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/student-life/aggies-invent/index.html",
+    "result_status": "301"
+  },
   "bigdata.tamu.edu^/(.*)": {
     "event_url": "bigdata.tamu.edu/some/file.html",
     "result_location": "https://tamids.tamu.edu",
