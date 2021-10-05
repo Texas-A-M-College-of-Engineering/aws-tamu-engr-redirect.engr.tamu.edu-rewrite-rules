@@ -434,6 +434,11 @@
     "result_location": "https://h3-icmi2018.engr.tamu.edu/some/file.html",
     "result_status": "301"
   },
+  "helpdesk.engr.tamu.edu^/(.*)": {
+    "event_url": "helpdesk.engr.tamu.edu/some/file.html",
+    "result_location": "https://tamuengr.atlassian.net/wiki/spaces/helpdesk/overview",
+    "result_status": "301"
+  },
   "ise.tamu.edu^/(.*)": {
     "event_url": "ise.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/industrial.html",
