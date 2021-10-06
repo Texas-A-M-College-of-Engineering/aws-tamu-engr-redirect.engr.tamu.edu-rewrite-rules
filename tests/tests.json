@@ -534,6 +534,11 @@
     "result_location": "https://stmilab.github.io",
     "result_status": "301"
   },
+  "supplychain.tamu.edu^/(.*)": {
+    "event_url": "supplychain.tamu.edu/some/file.html",
+    "result_location": "https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/",
+    "result_status": "301"
+  },
   "survivorbuddy.cse.tamu.edu^/(.*)": {
     "event_url": "survivorbuddy.cse.tamu.edu/some/file.html",
     "result_location": "https://survivorbuddy.wpengine.com/",

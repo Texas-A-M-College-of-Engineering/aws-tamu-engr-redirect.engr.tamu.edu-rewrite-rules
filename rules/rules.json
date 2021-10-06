@@ -191,6 +191,7 @@
 
     "^/(.*) https://stmilab.github.io [H=^stmi.engr.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/ [H=^supplychain.tamu.edu$,R=301,L]",
 
     "^/(.*) https://survivorbuddy.wpengine.com/ [H=^survivorbuddy.cse.tamu.edu$|^survivorbuddy.cs.tamu.edu$,R=301,L]",
 
