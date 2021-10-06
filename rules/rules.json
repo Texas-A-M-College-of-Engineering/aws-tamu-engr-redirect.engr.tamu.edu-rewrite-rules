@@ -131,7 +131,7 @@
 
     "^/(.*) https://h3-icmi2018.engr.tamu.edu/$1 [H=^h3-icmi2018.cse.tamu.edu$|^h3-icmi2018.cs.tamu.edu$,R=301,L]",
 
-    "^/.* https://tamuengr.atlassian.net/wiki/spaces/helpdesk/overview [H=^helpdesk.engr.tamu.edu$,R=301,L]",
+    "^/(.*) https://tamuengr.atlassian.net/wiki/spaces/helpdesk/overview [H=^helpdesk.engr.tamu.edu$,R=301,L]",
 
     "^/people/faculty/[gG]autam/default.htm https://gautam.engr.tamu.edu/index.html [H=^ise.tamu.edu$,R=301,L]",
     "^/(.*) https://engineering.tamu.edu/industrial.html [H=^ise.tamu.edu$,R=301,L]",
@@ -191,7 +191,7 @@
 
     "^/(.*) https://stmilab.github.io [H=^stmi.engr.tamu.edu$,R=301,L]",
 
-    "^/.* https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/ [H=^supplychain.tamu.edu$,R=301,L]",
+    "^/(.*) https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/ [H=^supplychain.tamu.edu$,R=301,L]",
 
     "^/(.*) https://survivorbuddy.wpengine.com/ [H=^survivorbuddy.cse.tamu.edu$|^survivorbuddy.cs.tamu.edu$,R=301,L]",
 
