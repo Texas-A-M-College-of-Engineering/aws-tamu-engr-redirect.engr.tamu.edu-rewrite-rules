@@ -554,6 +554,11 @@
     "result_location": "https://sites.google.com/site/ultrasoundtamu/some/file.html",
     "result_status": "301"
   },
+  "wiki.cs.tamu.edu^/(.*)": {
+    "event_url": "wiki.cs.tamu.edu/some/file.html",
+    "result_location": "https://helpdesk.engr.tamu.edu",
+    "result_status": "301"
+  },
   "winedale.tamu.edu^/(.*)": {
     "event_url": "winedale.tamu.edu/some/file.html",
     "result_location": "https://sites.google.com/tamu.edu/winedaleworkshop",
