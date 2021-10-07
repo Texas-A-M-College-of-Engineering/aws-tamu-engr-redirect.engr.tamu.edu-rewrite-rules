@@ -142,13 +142,14 @@
 
     
     "^/(.*) https://people.engr.tamu.edu/zixiang-xiong/$1 [H=^lena.tamu.edu$,R=301,L]",
-
+    
 
     "^/(.*) https://engineering.tamu.edu/etid/mmet.html [H=^manufacturing.tamu.edu$|^mmet.tamu.edu$|^mmetweb.tamu.edu$,R=301,L]",
 
 
     "^/(.*) https://engineering.tamu.edu/mechanical.html [H=^meen.tamu.edu$|^www.mengr.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://engineering.tamu.edu/etid/id/mid/index.html [H=^mid.tamu.edu$,R=301,L]",    
 
     "^/(.*) https://tamu-mrsl.org [H=^mri.tamu.edu$|^mrsl.ece.tamu.edu$,R=301,L]",
 

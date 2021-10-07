@@ -469,6 +469,11 @@
     "result_location": "https://engineering.tamu.edu/mechanical.html",
     "result_status": "301"
   },
+  "mid.tamu.edu^/(.*)": {
+    "event_url": "mid.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/mid/index.html",
+    "result_status": "301"
+  },
   "mri.tamu.edu^/(.*)": {
     "event_url": "mri.tamu.edu/some/file.html",
     "result_location": "https://tamu-mrsl.org",
