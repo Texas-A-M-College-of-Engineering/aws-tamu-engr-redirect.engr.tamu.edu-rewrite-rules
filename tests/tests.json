@@ -444,6 +444,56 @@
     "result_location": "https://tamuengr.atlassian.net/wiki/spaces/helpdesk/overview",
     "result_status": "301"
   },
+  "id.tamu.edu^/(.*)": {
+    "event_url": "id.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/index.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/about-us/?(.*)": {
+    "event_url": "id.tamu.edu/about-us/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/about-us/index.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/contact-us/?(.*)": {
+    "event_url": "id.tamu.edu/contact-us/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/contact-us/index.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/faculty/?(.*)": {
+    "event_url": "id.tamu.edu/faculty/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/contact-us/faculty.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/graduate/?(.*)": {
+    "event_url": "id.tamu.edu/graduate/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/mid/index.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/industry-solutions/?(.*)": {
+    "event_url": "id.tamu.edu/industry-solutions/some/file.html",
+    "result_location": "https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/news/?(.*)": {
+    "event_url": "id.tamu.edu/news/some/file.html",
+    "result_location": "https://engineering.tamu.edu/news/newsfeed.html?tags=Engineering%20Technology%20and%20Industrial%20Distribution",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/professional-development/?(.*)": {
+    "event_url": "id.tamu.edu/professional-development/some/file.html",
+    "result_location": "https://readcenter.tamu.edu",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/staff/?(.*)": {
+    "event_url": "id.tamu.edu/staff/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/contact-us/staff.html",
+    "result_status": "301"
+  },
+  "id.tamu.edu^/undergraduate/?(.*)": {
+    "event_url": "id.tamu.edu/undergraduate/some/file.html",
+    "result_location": "https://engineering.tamu.edu/etid/id/undergraduate/index.html",
+    "result_status": "301"
+  },
   "ise.tamu.edu^/(.*)": {
     "event_url": "ise.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/industrial.html",

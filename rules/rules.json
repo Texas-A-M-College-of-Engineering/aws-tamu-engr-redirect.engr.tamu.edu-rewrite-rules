@@ -137,6 +137,17 @@
 
     "^/(.*) https://tamuengr.atlassian.net/wiki/spaces/helpdesk/overview [H=^helpdesk.engr.tamu.edu$,R=301,L]",
 
+    "^/about-us/?(.*) https://engineering.tamu.edu/etid/id/about-us/index.html [H=^id.tamu.edu$,R=301,L]",
+    "^/faculty/?(.*) https://engineering.tamu.edu/etid/id/contact-us/faculty.html [H=^id.tamu.edu$,R=301,L]",
+    "^/undergraduate/?(.*) https://engineering.tamu.edu/etid/id/undergraduate/index.html [H=^id.tamu.edu$,R=301,L]",
+    "^/graduate/?(.*) https://engineering.tamu.edu/etid/id/mid/index.html [H=^id.tamu.edu$,R=301,L]",
+    "^/staff/?(.*) https://engineering.tamu.edu/etid/id/contact-us/staff.html [H=^id.tamu.edu$,R=301,L]",             
+    "^/news/?(.*) https://engineering.tamu.edu/news/newsfeed.html?tags=Engineering%20Technology%20and%20Industrial%20Distribution [H=^id.tamu.edu$,R=301,L]",
+    "^/contact-us/?(.*) https://engineering.tamu.edu/etid/id/contact-us/index.html [H=^id.tamu.edu$,R=301,L]",
+    "^/professional-development/?(.*) https://readcenter.tamu.edu [H=^id.tamu.edu$,R=301,L]",   
+    "^/industry-solutions/?(.*) https://readcenter.tamu.edu/industry-solutions/global-supply-chain-laboratory/ [H=^id.tamu.edu$,R=301,L]",
+    "^/(.*) https://engineering.tamu.edu/etid/id/index.html [H=^id.tamu.edu$,R=301,L]",
+
     "^/people/faculty/[gG]autam/default.htm https://gautam.engr.tamu.edu/index.html [H=^ise.tamu.edu$,R=301,L]",
     "^/(.*) https://engineering.tamu.edu/industrial.html [H=^ise.tamu.edu$,R=301,L]",
 
