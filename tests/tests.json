@@ -514,6 +514,11 @@
     "result_location": "https://engineering.tamu.edu/etid/mmet.html",
     "result_status": "301"
   },
+  "mathcircle.tamu.edu^/(.*)": {
+    "event_url": "mathcircle.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/tamu-math-circle",
+    "result_status": "301"
+  },
   "meen.tamu.edu^/(.*)": {
     "event_url": "meen.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/mechanical.html",

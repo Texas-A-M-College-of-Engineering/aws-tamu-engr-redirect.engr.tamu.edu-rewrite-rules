@@ -157,6 +157,7 @@
 
     "^/(.*) https://engineering.tamu.edu/etid/mmet.html [H=^manufacturing.tamu.edu$|^mmet.tamu.edu$|^mmetweb.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://sites.google.com/tamu.edu/tamu-math-circle [H=^mathcircle.tamu.edu$,R=301,L]",   
 
     "^/(.*) https://engineering.tamu.edu/mechanical.html [H=^meen.tamu.edu$|^www.mengr.tamu.edu$,R=301,L]",
 
