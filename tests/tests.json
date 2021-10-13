@@ -569,6 +569,11 @@
     "result_location": "https://cse-robotics.engr.tamu.edu/some/file.html",
     "result_status": "301"
   },
+  "soop.engr.tamu.edu^/(.*)": {
+    "event_url": "soop.engr.tamu.edu/some/file.html",
+    "result_location": "http://people.tamu.edu/~jleon/some/file.html",
+    "result_status": "301"
+  },
   "soundbytes.tamu.edu^/(.*)": {
     "event_url": "soundbytes.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/news/soundbytes-podcast/index.html",
