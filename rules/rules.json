@@ -192,6 +192,7 @@
 
     "^/(.*) https://cse-robotics.engr.tamu.edu/$1 [H=^robots.cse.tamu.edu$|^robots.cs.tamu.edu$|^robotics.cs.tamu.edu$|^robotics.cse.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://people.tamu.edu/~jleon [H=^soop.engr.tamu.edu$,R=301,L]",
 
     "^/(.*) https://engineering.tamu.edu/news/soundbytes-podcast/index.html [H=^soundbytes.tamu.edu$,R=301,L]",
 
