@@ -579,6 +579,11 @@
     "result_location": "https://engineering.tamu.edu/news/soundbytes-podcast/index.html",
     "result_status": "301"
   },
+  "spaal.engr.tamu.edu^/(.*)": {
+    "event_url": "spaal.engr.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/tamu.edu/spaal",
+    "result_status": "301"
+  },
   "spark.tamu.edu^/(.*)": {
     "event_url": "spark.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/outreach/index.html",
