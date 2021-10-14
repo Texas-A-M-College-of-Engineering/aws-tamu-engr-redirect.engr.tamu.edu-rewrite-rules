@@ -196,6 +196,7 @@
 
     "^/(.*) https://engineering.tamu.edu/news/soundbytes-podcast/index.html [H=^soundbytes.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://sites.google.com/tamu.edu/spaal [H=^spaal.engr.tamu.edu$,R=301,L]",
 
     "^/(.*) https://engineering.tamu.edu/outreach/index.html [H=^spark.tamu.edu$,R=301,L]",
 
