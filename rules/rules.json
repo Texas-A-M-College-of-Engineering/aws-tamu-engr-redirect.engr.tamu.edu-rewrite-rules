@@ -219,7 +219,7 @@
 
     "^/(.*) https://sites.google.com/site/ultrasoundtamu/$1 [H=^ultras.ece.tamu.edu$|^ultrasound.ece.tamu.edu$,R=301,L]",
 
-    "^/(.*) https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/1191968840/Engineering+Virtual+Labs [H=^vlabs.engr.tamu.edu$,R=301,L]",    
+    "^/(.*) https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/1191968840/Engineering+Virtual+Labs [H=^vlabs.engr.tamu.edu$|^vdi.engr.tamu.edu$,R=301,L]",    
 
     "^/(.*) https://helpdesk.engr.tamu.edu [H=^wiki.cs.tamu.edu$|^wiki.cse.tamu.edu$,R=301,L]",
 
