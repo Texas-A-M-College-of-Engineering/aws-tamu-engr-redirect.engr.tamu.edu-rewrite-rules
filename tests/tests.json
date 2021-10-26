@@ -631,7 +631,7 @@
   },
   "vlabs.engr.tamu.edu^/(.*)": {
     "event_url": "vlabs.engr.tamu.edu/some/file.html",
-    "result_location": "https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/1191968840/Engineering+Virtual+Labs",
+    "result_location": "https://tamuengr.atlassian.net/wiki/pages/viewpage.action?pageId=1191968840",
     "result_status": "301"
   },
   "wiki.cs.tamu.edu^/(.*)": {
