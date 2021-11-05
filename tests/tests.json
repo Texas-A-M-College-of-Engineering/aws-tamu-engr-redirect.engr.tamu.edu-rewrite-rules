@@ -419,6 +419,11 @@
     "result_location": "https://people.engr.tamu.edu/khyum107/some/file.html",
     "result_status": "301"
   },
+  "felts.tamu.edu^/(.*)": {
+    "event_url": "felts.tamu.edu/some/file.html",
+    "result_location": "https://feltslab.wixsite.com/feltslab",
+    "result_status": "301"
+  },
   "gecs.tamu.edu^/(.*)": {
     "event_url": "gecs.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/electrical/",
