@@ -122,6 +122,7 @@
     "^/teresa/?(.*) https://people.engr.tamu.edu/teresa19/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
     "^/(.*) https://people.engr.tamu.edu/$1 [H=^faculty.cs.tamu.edu$|^faculty.cse.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://feltslab.wixsite.com/feltslab [H=^felts.tamu.edu$|^felts.engr.tamu.edu$,R=301,L]",
 
     "^/(.*) https://engineering.tamu.edu/electrical/ [H=^gecs.tamu.edu$,R=301,L]",
     
