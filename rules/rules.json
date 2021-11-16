@@ -178,7 +178,6 @@
     "^/(.*) https://it-lf-ecmf2.ads.tamu.edu/Forms/FundingActionRequestForm [H=^pats.engr.tamu.edu$,R=301,L]",
 
 
-    "^/(.*) https://pdml.engr.tamu.edu [H=^pdml.tamu.edu$,R=301,L]",
 
 
     "^/datta-gupta/public_html/index.html https://datta-gupta.engr.tamu.edu [H=^www.pe.tamu.edu$,R=301,L]",
