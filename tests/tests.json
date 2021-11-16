@@ -559,11 +559,6 @@
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/FundingActionRequestForm",
     "result_status": "301"
   },
-  "pdml.tamu.edu^/(.*)": {
-    "event_url": "pdml.tamu.edu/some/file.html",
-    "result_location": "https://pdml.engr.tamu.edu",
-    "result_status": "301"
-  },
   "pscp.ece.tamu.edu^/(.*)": {
     "event_url": "pscp.ece.tamu.edu/some/file.html",
     "result_location": "https://smartgridcenter.tamu.edu/pscp/some/file.html",
