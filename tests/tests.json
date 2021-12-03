@@ -284,6 +284,11 @@
     "result_location": "https://ecologylab.net",
     "result_status": "301"
   },
+  "eefg.engr.tamu.edu^/(.*)": {
+    "event_url": "eefg.engr.tamu.edu/some/file.html",
+    "result_location": "https://ieei.tamu.edu/eefg-homepage/",
+    "result_status": "301"
+  },
   "eet.tamu.edu^/(.*)": {
     "event_url": "eet.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/etid/eset.html",

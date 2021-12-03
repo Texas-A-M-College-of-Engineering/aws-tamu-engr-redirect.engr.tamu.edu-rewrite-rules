@@ -82,7 +82,8 @@
 
     "^/(.*) https://ecologylab.net [H=^ecologylab.cse.tamu.edu$|^ecologylab.cs.tamu.edu$,R=301,L]",
 
-    
+    "^/(.*) https://ieei.tamu.edu/eefg-homepage/ [H=^eefg.engr.tamu.edu$,R=301,L]",        
+
     "^/(.*) https://engineering.tamu.edu/etid/eset.html [H=^eet.tamu.edu$|^eset.tamu.edu$|^esetweb.tamu.edu$,R=301,L]",
 
     
