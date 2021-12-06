@@ -569,6 +569,11 @@
     "result_location": "https://smartgridcenter.tamu.edu/pscp/some/file.html",
     "result_status": "301"
   },
+  "qnr.engr.tamu.edu^/(.*)": {
+    "event_url": "qnr.engr.tamu.edu/some/file.html",
+    "result_location": "https://jh-kim.org",
+    "result_status": "301"
+  },
   "robots.cse.tamu.edu^/(.*)": {
     "event_url": "robots.cse.tamu.edu/some/file.html",
     "result_location": "https://cse-robotics.engr.tamu.edu/some/file.html",
