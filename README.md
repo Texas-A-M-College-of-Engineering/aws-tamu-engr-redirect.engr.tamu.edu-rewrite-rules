@@ -1,13 +1,40 @@
-# aws-tamu-lambda-redirect-rules
+# aws-tamu-engr-redirect.engr.tamu.edu-rewrite-rules
 Rewrite rules, tests, and pipeline for redirect.engr.tamu.edu
 
 ## Usage Summary
-Clone this repository, create a new feature or bugfix branch, and modify the 
-*rules/rules.json* file in the rules directory. Tests should be created for each 
-rule. You can find more details about creating tests in the below section on
-testing. When you are finished, create a PR for your new branch against the main 
-branch and the tests will run. If all tests pass, you can merge your PR and the
-rules will be live. Keep in mind that caching happens at both the CloudFront
+Begin by cloning this repository, and ensure that you clone it recursively to 
+include the submodule:
+
+```bash
+$ git clone --recurse-submodules https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-engr-redirect.engr.tamu.edu-rewrite-rules
+```
+
+Create a new feature or bugfix branch: 
+
+```bash
+$ git checkout -b 'feature-add-site-mysite.engr.tamu.edu'
+```
+
+Modify the `rules/rules.json` file in the rules directory. Tests should be created 
+for each rule. Rules cannot be deployed if they do not have an associated test.
+You can find more details about creating tests in the below section on
+testing. When you are finished, push your new rules to github.com:
+
+```bash
+$ git add rules/rules.json
+$ git commit -m "Add rewrite rule for mysite.engr.tamu.edu"
+$ git push --set-upstream origin feature-add-site-mysite.engr.tamu.edu
+```
+
+Go to the GitHub repo in your web browser and create a PR for your new branch 
+against the main branch:
+
+```
+https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-engr-redirect.engr.tamu.edu-rewrite-rules/pull/new/feature-add-site-mysite.engr.tamu.edu
+```
+
+This will cause the automated tests to run. If all tests pass, you can merge your 
+PR and the rules will be live. Keep in mind that caching happens at both the CloudFront
 edge locations and the Lambda@Edge function, so you may not see the change
 reflected immediately
 
@@ -27,11 +54,11 @@ This is also important since caching means that the rule will not take effect
 immediately, and so creating a test will ensure that the rule should work as 
 expected when it does take effect.
 
-There are two methods that you can use to create test rules. You will need to
-have Docker installed to run or generate tests locally.
+There are two methods that you can use to create test rules. **You will need to
+have Docker installed to run or generate tests locally.**
 
 ### Setting up the local testing environment
-You should install Docker and Python 3.8, then set up your testing environment:
+You should install Docker and Python 3.8+, then set up your testing environment:
 
 ```bash
 $ python3 -m venv venv
@@ -39,10 +66,18 @@ $ source venv/bin/activate
 $ pip install -r ./requirements.txt
 ```
 
+Additionally, you should ensure that you have the `jq` CLI utility installed.
+On a Mac, you can install it with Homebrew:
+
+```bash
+$ brew install jq
+```
+
 ### Manually create the rule
 You can edit the *tests/tests.json* file and add a testing rule yourself. You
 should ensure that the rules remain in alphabetical order to make browsing the
-tests easier.
+tests easier. The easier way to do this is to automatically generate the rule,
+which is explained in the next section.
 
 ### Automatically create the rule and edit it
 You can run the *rewrite_tester.py* utility in the *tester* directory to generate 
@@ -52,6 +87,14 @@ tests as follows:
 $ source venv/bin/activate
 $ python tester/rewrite_tester.py --test_path tests --debug --build_missing_tests
 ```
+
+**Note: The first time that you checkout and run this project you'll need to
+build the Lambda. You can do that by adding the --build_sam flag as follows:**
+
+```bash
+$ python tester/rewrite_tester.py --test_path tests --debug --build_missing_tests --build_sam
+```
+
 
 This will automatically add any testing rules to the tests file. You should
 examine the *tests/tests.json* file and ensure that the new rules are correct
@@ -114,4 +157,4 @@ Deploying changes to the rewrite rules should follow this workflow:
 3. Submit a PR to merge the changes to the *main* branch
 4. The merge is only possible if the tests pass
 5. Be aware that changes to the rules will take time to be reflected. On 
-   average: 1/2 * CF cache TTL + 1/2 * Lambda rule cache TTL
+   average: ((1/2 * CF cache TTL) * (1/2 * Lambda rule cache TTL)) / 2
