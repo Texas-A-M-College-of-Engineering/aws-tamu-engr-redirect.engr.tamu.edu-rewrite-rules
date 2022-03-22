@@ -18,10 +18,11 @@ $ git checkout -b 'feature-add-site-mysite.engr.tamu.edu'
 Modify the `rules/rules.json` file in the rules directory. Tests should be created 
 for each rule. Rules cannot be deployed if they do not have an associated test.
 You can find more details about creating tests in the below section on
-testing. When you are finished, push your new rules to github.com:
+testing. When you are finished, push your new rules and tests to github.com:
 
 ```bash
 $ git add rules/rules.json
+$ git add tests/tests.json
 $ git commit -m "Add rewrite rule for mysite.engr.tamu.edu"
 $ git push --set-upstream origin feature-add-site-mysite.engr.tamu.edu
 ```
@@ -35,7 +36,7 @@ https://github.com/Texas-A-M-College-of-Engineering/aws-tamu-engr-redirect.engr.
 
 This will cause the automated tests to run. If all tests pass, you can merge your 
 PR and the rules will be live. Keep in mind that caching happens at both the CloudFront
-edge locations and the Lambda@Edge function, so you may not see the change
+edge locations and the Lambda@Edge function, so you may not see the changes
 reflected immediately
 
 ## Rules
@@ -58,7 +59,8 @@ There are two methods that you can use to create test rules. **You will need to
 have Docker installed to run or generate tests locally.**
 
 ### Setting up the local testing environment
-You should install Docker and Python 3.8+, then set up your testing environment:
+You should install Docker and Python 3.8+, then set up your testing environment. 
+Do this from the root of your repo:
 
 ```bash
 $ python3 -m venv venv
@@ -100,7 +102,7 @@ This will automatically add any testing rules to the tests file. You should
 examine the *tests/tests.json* file and ensure that the new rules are correct
 
 ### Test file format
-An excerpt from the testing file with two tests looks like this:
+An excerpt from the tests file with two tests looks like this:
 
 ```json
 {
@@ -157,4 +159,4 @@ Deploying changes to the rewrite rules should follow this workflow:
 3. Submit a PR to merge the changes to the *main* branch
 4. The merge is only possible if the tests pass
 5. Be aware that changes to the rules will take time to be reflected. On 
-   average: ((1/2 * CF cache TTL) * (1/2 * Lambda rule cache TTL)) / 2
+   average: ((1/2 * CF cache TTL) + (1/2 * Lambda rule cache TTL)) / 2
