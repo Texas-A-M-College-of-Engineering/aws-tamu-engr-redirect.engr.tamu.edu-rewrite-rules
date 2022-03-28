@@ -44,6 +44,11 @@
     "result_location": "https://people.engr.tamu.edu/arum.han/some/file.html",
     "result_status": "301"
   },
+  "cblee.engr.tamu.edu^/(.*)": {
+    "event_url": "cblee.engr.tamu.edu/some/file.html",
+    "result_location": "https://sites.google.com/site/precisionengineeringlab/",
+    "result_status": "301"
+  },
   "ce.tamu.edu^/(.*)": {
     "event_url": "ce.tamu.edu/some/file.html",
     "result_location": "https://engineering.tamu.edu/ce/",

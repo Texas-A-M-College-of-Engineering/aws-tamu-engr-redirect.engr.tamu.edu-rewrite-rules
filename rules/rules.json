@@ -15,6 +15,7 @@
 
     "^/(.*) https://people.engr.tamu.edu/arum.han/$1 [H=^biomems.tamu.edu$,R=301,L]",
 
+    "^/(.*) https://sites.google.com/site/precisionengineeringlab/ [H=^cblee.engr.tamu.edu$,R=301,L]",
 
     "^/(.*) https://engineering.tamu.edu/ce/ [H=^ce.tamu.edu$,R=301,L]",
 
