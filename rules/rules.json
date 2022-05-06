@@ -14,6 +14,9 @@
 
 
     "^/(.*) https://people.engr.tamu.edu/arum.han/$1 [H=^biomems.tamu.edu$,R=301,L]",
+
+    "^/(.*) https://sites.google.com/tamu.edu/mburris [H=^burris.engr.tamu.edu$,R=301,L]",     
+    
     "^/(.*) https://sites.google.com/site/precisionengineeringlab/ [H=^cblee.engr.tamu.edu$,R=301,L]",
 
     "^/(.*) https://engineering.tamu.edu/ce/ [H=^ce.tamu.edu$,R=301,L]",
@@ -25,7 +28,7 @@
     "^/bwang/?(.*) https://xbwang.engr.tamu.edu [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/idamnjanovic/?(.*) https://sites.google.com/tamu.edu/damnjanovic/home [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/lquadrifoglio/?(.*) https://lquadrifoglio.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
-    "^/mburris/?(.*) https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$|^burris.engr.tamu.edu$,R=301,L]",
+    "^/mburris/?(.*) https://sites.google.com/tamu.edu/mburris [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/folivera/?(.*) https://olivera.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/ghawkins/MUTCD-History.htm https://ghawkins.engr.tamu.edu/mutcd-information-and-history/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
     "^/yzhang/?(.*) https://yzhang.engr.tamu.edu/ [H=^ceprofs.civil.tamu.edu$,R=301,L]",
