@@ -75,6 +75,14 @@ On a Mac, you can install it with Homebrew:
 $ brew install jq
 ```
 
+Additionally, you should ensure that you have the `sam` CLI utility installed.
+On a Mac, you can install it with Homebrew:
+
+```bash
+$ brew tap aws/tap
+$ brew install aws-sam-cli
+```
+
 ### Manually create the rule
 You can edit the *tests/tests.json* file and add a testing rule yourself. You
 should ensure that the rules remain in alphabetical order to make browsing the

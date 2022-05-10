@@ -228,7 +228,7 @@ class RewriteTester:
       return res
 
     def sam_build(self):
-      process = subprocess.Popen(f'sam build'.split(' '), 
+      process = subprocess.Popen(f'sam build --use-container'.split(' '), 
           stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd='sam')
       stdout, stderr = process.communicate()
       print(stdout.decode('utf-8'))
