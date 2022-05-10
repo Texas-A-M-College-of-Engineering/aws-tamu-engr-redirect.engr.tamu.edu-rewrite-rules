@@ -107,7 +107,8 @@ $ python tester/rewrite_tester.py --test_path tests --debug --build_missing_test
 
 
 This will automatically add any testing rules to the tests file. You should
-examine the *tests/tests.json* file and ensure that the new rules are correct
+examine the *tests/tests.json* file and ensure that the new rules are correct.
+**Note: You will need to have Docker installed and running for this to work**
 
 ### Test file format
 An excerpt from the tests file with two tests looks like this:
