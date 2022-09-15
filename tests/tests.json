@@ -525,7 +525,7 @@
     "result_status": "301"
   },
   "lfproxy.tamu.edu^/(.*)[&?]form=(.*?)(?![^&])": {
-    "event_url": "lfproxy.tamu.edu/form=cas",
+    "event_url": "lfproxy.tamu.edu/?form=cas",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
     "result_status": "301"
   },
