@@ -159,7 +159,7 @@
     
     "^/(.*) https://people.engr.tamu.edu/zixiang-xiong/$1 [H=^lena.tamu.edu$,R=301,L]",
 	
-	"^/(.*)[&?]form=(.*?)(?![^&]) https://it-lf-ecmf2.ads.tamu.edu/Forms/$2 [H=^lfproxy.tamu.edu$,R=301,L]",
+	"^/(.*)[&?]form=(.*?)(?=&|$) https://it-lf-ecmf2.ads.tamu.edu/Forms/$2 [H=^lfproxy.tamu.edu$,R=301,L]",
 	"^/(.*) https://it-lf-ecmf2.ads.tamu.edu/Forms/cas [H=^lfproxy.tamu.edu$,R=301,L]",
     
     "^/(.*) https://engineering.tamu.edu/etid/mmet.html [H=^manufacturing.tamu.edu$|^mmet.tamu.edu$|^mmetweb.tamu.edu$,R=301,L]",

@@ -524,7 +524,12 @@
     "result_location": "https://engineering.tamu.edu/industrial.html",
     "result_status": "301"
   },
-  "lfproxy.tamu.edu^/(.*)[&?]form=(.*?)(?![^&])": {
+  "lena.tamu.edu^/(.*)": {
+    "event_url": "lena.tamu.edu/some/file.html",
+    "result_location": "https://people.engr.tamu.edu/zixiang-xiong/some/file.html",
+    "result_status": "301"
+  },
+  "lfproxy.tamu.edu^/(.*)[&?]form=(.*?)(?=&|$)": {
     "event_url": "lfproxy.tamu.edu/?form=cas",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
     "result_status": "301"
@@ -532,11 +537,6 @@
   "lfproxy.tamu.edu^/(.*)": {
     "event_url": "lfproxy.tamu.edu/",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
-    "result_status": "301"
-  },
-  "lena.tamu.edu^/(.*)": {
-    "event_url": "lena.tamu.edu/some/file.html",
-    "result_location": "https://people.engr.tamu.edu/zixiang-xiong/some/file.html",
     "result_status": "301"
   },
   "manufacturing.tamu.edu^/(.*)": {
