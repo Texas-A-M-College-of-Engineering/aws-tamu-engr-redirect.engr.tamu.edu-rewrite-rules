@@ -529,8 +529,8 @@
     "result_location": "https://people.engr.tamu.edu/zixiang-xiong/some/file.html",
     "result_status": "301"
   },
-  "lfproxy.tamu.edu^/(.*)[&?]form=([^&#]*)": {
-    "event_url": "lfproxy.tamu.edu/?form=cas",
+  "lfproxy.tamu.edu^/.*[&?]form=([^&#]*)(.*)": {
+    "event_url": "lfproxy.tamu.edu/?form=cas&junk=stuff",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
     "result_status": "301"
   },
