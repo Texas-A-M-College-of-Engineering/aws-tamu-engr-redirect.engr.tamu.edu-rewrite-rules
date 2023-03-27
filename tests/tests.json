@@ -529,13 +529,13 @@
     "result_location": "https://people.engr.tamu.edu/zixiang-xiong/some/file.html",
     "result_status": "301"
   },
-  "lfproxy.tamu.edu^/.*[&?]form=([^&#]*)(.*)": {
-    "event_url": "lfproxy.tamu.edu/?form=cas&junk=stuff",
+  "lfproxy.tamu.edu^/(.*)": {
+    "event_url": "lfproxy.tamu.edu/",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
     "result_status": "301"
   },
-  "lfproxy.tamu.edu^/(.*)": {
-    "event_url": "lfproxy.tamu.edu/",
+  "lfproxy.tamu.edu^/.*[&?]form=([^&#]*)(.*)": {
+    "event_url": "lfproxy.tamu.edu/?form=cas&junk=stuff",
     "result_location": "https://it-lf-ecmf2.ads.tamu.edu/Forms/cas",
     "result_status": "301"
   },
@@ -657,6 +657,11 @@
   "teesresearch.tamu.edu^/(.*)": {
     "event_url": "teesresearch.tamu.edu/some/file.html",
     "result_location": "https://tees.tamu.edu/researchsupport",
+    "result_status": "301"
+  },
+  "trotter.tamu.edu^/(.*)": {
+    "event_url": "trotter.tamu.edu/some/file.html",
+    "result_location": "https://engineering.tamu.edu/events/trotter.html",
     "result_status": "301"
   },
   "ultras.ece.tamu.edu^/(.*)": {
